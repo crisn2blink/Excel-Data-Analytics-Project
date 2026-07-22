@@ -10,7 +10,7 @@ This data jobs salary dashboard was created to help job seekers investigate sala
 
 [Check out the dashboard here](https://github.com/crisn2blink/Excel-Data-Analytics-Project/tree/main/Project_1)  
 
-![](C:\Users\crisn\Desktop\courses\Course_Excel\01_Raw_Data\Excel_Data_Analytics_Course-main\0_Resources\Images\1_Salary_Dashboard_Final_Dashboard.gif)
+![](Project_1/images/1_Salary_Dashboard_Final_Dashboard.gif)
 
 ## Salary Analysis
 
@@ -20,6 +20,6 @@ I have always been surprised by the lack of data exploring the most optimal jobs
 
 [Check out the analysis Excel workbook here](https://github.com/crisn2blink/Excel-Data-Analytics-Project/tree/main/Project_2)  
 
-![](Files/2_Project_Analysis_Chart1.png)
+![Number of skills w/ pay for each job](Project_2/images/2_Project_Analysis_Chart1.png)
 
-![](Files/2_Project_Analysis_Chart3.png)
+![Likelihood top jobs found in posting](Project_2/images/2_Project_Analysis_Chart3.png)
