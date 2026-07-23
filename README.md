@@ -24,7 +24,7 @@ This data jobs salary dashboard was created for the purpose of helping job seeke
 Essentially, this dashboard simply a tool with a simple user interface that serves a specific purpose.  
 
 
-### USER INTERFACE
+### User Interface
 
 A single interactive dashboard page where the user has three drop-down menus to make a selection in (the inputs):
 
@@ -45,7 +45,7 @@ The dashboard will then populate (based on the selections), the following output
 - Job Count (number of job postings found)  
 
 
-### THE DATA
+### The Data
 
 Scraped from many job posting sites and collected by Luke Barousse. More about the data (along with the data itself) can be found here [datanerd.tech](https://datanerd.tech/about)
 
@@ -72,7 +72,7 @@ This Excel workbook takes things a step further and allows us to gain a deeper i
 
 
 
-### SET UP
+### Set Up
 
 - The workbook is divided into four separate dashboards or worksheet tabs.
 
@@ -93,7 +93,7 @@ With the goal being to gain a broad understanding of the job market to grant us 
 
 
 
-### THE DATA
+### The Data
 
 Scraped from many job posting sites and collected by Luke Barousse. More about the data (along with the data itself) can be found here [datanerd.tech](https://datanerd.tech/about)
 
