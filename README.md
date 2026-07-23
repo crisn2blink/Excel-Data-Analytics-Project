@@ -1,6 +1,7 @@
 # My Excel Data Analytics Project
 
-This repo contains all the Excel files used to create the dashboards and reports for the project
+This repo contains the workbooks and resources I used while working through **Luke Barousse's course "Excel for Data Analytics"** for the purpose of
+all the Excel files used to create the dashboards and reports for the project
 
 ## Salary Dashboard
 
