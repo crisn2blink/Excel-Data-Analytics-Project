@@ -19,6 +19,7 @@ All the Excel files used to create the dashboards and reports for the projects a
 
 This data jobs salary dashboard was created for the purpose of helping job seekers (having a data background) investigate salaries for their desired jobs and ensure they are being adequately compensated.
 
+![](Project_1/images/1_Salary_Dashboard_Final_Dashboard.gif)
 <br>
 
 Essentially, this dashboard simply a tool with a simple user interface that serves a specific purpose.  
