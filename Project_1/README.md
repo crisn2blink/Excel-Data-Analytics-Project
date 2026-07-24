@@ -80,35 +80,31 @@ Outputs (*the inputs that affect the specific output will be in bold*)
 
 <br>
 
-![](Files/image%203.png)
+![](images/1_Salary_Dashboard_Type.png)
 
 <br>
 
 4. Bottom left-most KPI: Median salary for the selected **job title** in the selected **country** for the selected **type**
 
-**<br>
-**
+<br>
 
-**![](Files/image%204.png)**
+![](images/1_Median_Salary_KPI.png)
 
 <br>
 
 5. Bottom center KPI: Job platform with the highest count of job postings for the selected **job title** in the selected **country** for the selected **type**
 
-**<br>
-**
+<br>
 
-**![](Files/image%205.png)**
+![](images/1_Top_Platform_KPI.png)
 
-**<br>
-**
+<br>
 
 6. Right-most KPI: The job postings count for the selected **job title** in the selected **country** for the selected **type**
 
-**<br>
-**
+<br>
 
-**![](Files/image%206.png)**
+![](images/1_Job_Count_KPI.png)
 
 <br>
 
@@ -166,7 +162,7 @@ Clause 1: The formula is applied to an array of values in an adjacent column (th
 
 Background Table
 
-[![1\_Salary\_Dashboard\_Screenshot1.png](https://github.com/crisn2blink/Excel-Data-Analytics-Project/raw/main/Project_1/images/1_Salary_Dashboard_Screenshot1.png)](https://github.com/crisn2blink/Excel-Data-Analytics-Project/blob/main/Project_1/images/1_Salary_Dashboard_Screenshot1.png)
+![](images/1_Salary_Dashboard_Screenshot1.png)
 
 <br>
 
@@ -220,14 +216,14 @@ Clause 1: Notice that this formula is almost identical to the formula for output
 
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array (comprised of all the countries)
-- **🔢 Formula Purpose:** This formula populates the table, returning the median salary based on job title, country, and type specified.
+- 🔢 **Formula Purpose:** This formula populates the table, returning the median salary based on job title, country, and type specified.
     - Which populates the map in our dashboard visual
 
 <br>
 
 Background Table  
 
-![](Files/image%207.png)
+![](images/1_Job_Country_Table.png)
 
 **NOTE**: The error values come about if there are no matching job postings included in the median calculation for the specific country
 
@@ -239,22 +235,16 @@ For this KPI we use the following array formula:
 
 <br>
 
-\=COUNTIFS(
-
- Clause 1: jobs\[job\_via\],A3,
-
- Clause 2: jobs\[job\_title\_short\],Job\_Title\_D,
-
- Clause 3: jobs\[job\_country\],Job\_Country\_D,
-
- Clause 4: jobs\[job\_schedule\_type\], Job\_Schedule\_Type\_D)
-
+\=COUNTIFS(  
+ Clause 1: jobs\[job\_via\],A3,  
+ Clause 2: jobs\[job\_title\_short\],Job\_Title\_D,  
+ Clause 3: jobs\[job\_country\],Job\_Country\_D,  
+ Clause 4: jobs\[job\_schedule\_type\], Job\_Schedule\_Type\_D)  
 )
 
 <br>
 
 Clause 1: The formula is applied to an array of values in an adjacent column (the job platforms (job\_via)) and returns the value of the Count of job postings for that specific job platform that meet all of the following conditions:
-
 - Clause 2: The job title for the post must match the user-selected **job title** (from the main dashboard drop-down menu)
 - Clause 3: The country for the post must match the user-selected **country** (from the main dashboard drop-down menu)
 - Clause 4: The job type for the post must match the user-selected **type** (from the main dashboard drop-down menu)
@@ -265,7 +255,7 @@ This results in the following reference table:
 
 <br>
 
-![](Files/image%208.png)
+![](images/1_Job_Platform_Table2.png)
 
 <br>
 
@@ -287,7 +277,6 @@ The median salaries used for this graph are calculated using the following arra
 
 \=MEDIAN(  
   IF(
-
 Clause 1: (jobs\[job\_title\_short\]=Job\_Title\_D)\*  
 Clause 2: (jobs\[salary\_year\_avg\]<>0)\*  
 Clause 3: (jobs\[job\_country\]=Job\_Country\_D)\*  
@@ -298,7 +287,6 @@ Clause 5: jobs\[salary\_year\_avg\]
 <br>
 
 Notice that this formula is almost identical to all the previous median formulas. However, there is a difference in that here, the array of adjacent values that the formula is now being applied to are the different job types (full-time, part-time, contractor etc.).
-
 - Clause 1: Only job postings that pertain to the selected **job title** (from the main dashboard drop-down menu) are included in the median calculation.
 - Clause 2: Any job posting that had a value of 0 from that job title was excluded from the median calculation.
 - Clause 3:  Only job postings that pertain to the selected **country** (from the main dashboard drop-down menu) are included in the median calculation.
@@ -313,14 +301,14 @@ Notice that this formula is almost identical to all the previous median formulas
 
 - 🔍 **Multi-Criteria Filtering:** Checks job title, country, schedule type, and excludes blank salaries.
 - 📊 **Array Formula:** Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array (comprised of all the job types)
-- **🔢 Formula Purpose:** This formula populates the table, returning the median salary based on job title, country, and type specified.
+- 🔢 **Formula Purpose:** This formula populates the table, returning the median salary based on job title, country, and type specified.
     - Which populates the bar chart in our dashboard visual
 
 <br>
 
 Background table
 
-![](Files/image%209.png)
+![](images/1_Job_Type_Table.png)
 
 <br>
 
@@ -359,7 +347,7 @@ Clause 1: The formula is applied to an array of values in an adjacent column (th
 
 This results in the following reference table:
 
-![](Files/image%2010.png)
+![](images/1_Job_Title_Table.png)
 
 <br>
 
@@ -376,20 +364,17 @@ Which we then proceed to use the following lookup formula to pull the Count for 
 * * *
 
 <br>
-
 ### Excel Skills Used
 
 The following Excel skills were utilized for the analysis:
 
-- **📉 Charts**
-- **🧮 Formulas and Functions**
-- **❎ Data Validation**
-
-**
+- 📉 **Charts**
+- 🧮 **Formulas and Functions**
+- ❎ **Data Validation**
 
 * * *
 
-**<br>
+<br>
 
 ### Conclusion
 
