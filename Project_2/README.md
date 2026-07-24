@@ -1,23 +1,24 @@
-My Excel Data Analytics Project
-
-# Project 2 Analysis
+# Salary Analysis
 
 ## Introduction
 
-As a former job seeker, I’ve always been surprised by the lack of data exploring the most optimal jobs and skills in the data science market. I set out to understand what skills top employers request and how to land more pay.
+This analysis is of the data industry job market and is based on data from job postings (from various online sources).
+The analysis was completed as part of Luke Barousse's online Excel Data Analytics course.
+
+This README was taken directly from Luke's Git Repository for his course and highlights step-by-step how we formed our analysis
+and answered four major questions (each with a dedicated tab within the Excel workbook).
+
 
 ### Questions to Analyze
 
-To understand the data science job market, I asked the following:
-
-1. **Do more skills get you better pay?**
-2. **What’s the salary for data jobs in different regions?**
-3. **What are the top skills of data professionals?**
-4. **What’s the pay for the top 10 skills?**
+1. **Do more skills get you better pay?** (Salary_Vs_Skills)
+2. **What’s the salary for data jobs in different regions?** (Salary_Analysis)
+3. **What are the top skills of data professionals?** (Skill_Job_Analysis)
+4. **What’s the pay for the top 10 skills?** (Skill_Salary_Analysis)
 
 ### Excel Skills Used
 
-The following Excel skills were utilized for analysis:
+The following Excel skills were utilized for the analysis:
 
 - **📊 Pivot Tables**
 - **📈 Pivot Charts**
@@ -27,7 +28,7 @@ The following Excel skills were utilized for analysis:
 
 ### Data Jobs Dataset
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel.
+The dataset used for this project contains real-world data science job information from 1/1/2023 - 6/30/2026.
 
 It includes detailed information on:
 
@@ -48,7 +49,7 @@ It includes detailed information on:
 
 #### 🔄 Transform
 
-- Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
+- Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.  
     - 📊 data\_jobs\_all
 
 [![2\_Project\_Analysis\_Screenshot1.png](https://github.com/lukebarousse/Excel_Data_Analytics_Course/raw/main/0_Resources/Images/2_Project_Analysis_Screenshot1.png)](https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Images/2_Project_Analysis_Screenshot1.png)
@@ -70,14 +71,9 @@ It includes detailed information on:
 
 #### 💡 Insights
 
-- 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
-- 💼 Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
+- 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Senior Data Scientist.
 
 [![2\_Project\_Analysis\_Chart1.png](https://github.com/lukebarousse/Excel_Data_Analytics_Course/raw/main/0_Resources/Images/2_Project_Analysis_Chart1.png)](https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Images/2_Project_Analysis_Chart1.png)
-
-#### 🤔 So What
-
-- This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
 
 ## 2️⃣ What’s the salary for data jobs in different regions?
 
@@ -109,14 +105,10 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 #### 💡 Insights
 
-- 💼 Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
-- 💰 The salary disparity between US and Non-US roles is particularly notable in high-tech jobs, which might be influenced by the concentration of tech industries in the US.
+- 💼 Job roles like Senior Data Engineer and Data Scientist have higher median salaries both in the US and internationally, showcasing the global demand for high-level data expertise.
+- 💰 The salary disparity between US and Non-US roles is particularly notable in high-tech jobs.
 
 [![2\_Project\_Analysis\_Chart2.png](https://github.com/lukebarousse/Excel_Data_Analytics_Course/raw/main/0_Resources/Images/2_Project_Analysis_Chart2.png)](https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Images/2_Project_Analysis_Chart2.png)
-
-#### **🤔 So What**
-
-- These salary insights are important for planning and salary negotiations, helping professionals and companies align their offers with market standards while considering geographical variations.
 
 ## 3️⃣ What are the top skills of data professionals?
 
@@ -143,14 +135,10 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 #### 💡Insights
 
-- 💻 SQL and Python dominate as top skills in data-related jobs, reflecting their foundational role in data processing and analysis.
+- 💻 SQL and Python dominate as top skills in data-related jobs.
 - ☁️ Emerging technologies like AWS and Azure also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
 
 [![2\_Project\_Analysis\_Chart3.png](https://github.com/lukebarousse/Excel_Data_Analytics_Course/raw/main/0_Resources/Images/2_Project_Analysis_Chart3.png)](https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Images/2_Project_Analysis_Chart3.png)
-
-#### 🤔So What
-
-- Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
 
 ## 4️⃣ What’s the pay of the top 10 skills?
 
@@ -172,36 +160,7 @@ Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
 
 [![2\_Project\_Analysis\_Chart4.png](https://github.com/lukebarousse/Excel_Data_Analytics_Course/raw/main/0_Resources/Images/2_Project_Analysis_Chart4.png)](https://github.com/lukebarousse/Excel_Data_Analytics_Course/blob/main/0_Resources/Images/2_Project_Analysis_Chart4.png)
 
-### 🤔So What
-
-- This chart highlights the importance of investing time in learning high-value skills like Python and SQL, which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
-
 ## Conclusion
 
-As a data enthusiast and former job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings, I analyzed job titles, salaries, locations, and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX, and charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL, and cloud technologies.
-
-I hope this project serves as a practical guide for data professionals and provides an overview of the skills needed for higher-paying roles.
-
-This repo contains all the Excel files used to create the dashboards and reports for the project
-
-## Salary Dashboard
-
-This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
-
-<br>
-
-[Check out the dashboard here](https://github.com/crisn2blink/Excel-Data-Analytics-Project/tree/main/Project_1)  
-
-![](Files/1_Salary_Dashboard_Final_Dashboard.gif)
-
-## Salary Analysis
-
-I have always been surprised by the lack of data exploring the most optimal jobs and skills in the data science industry. I set out to understand what skills top employers request and how to land more pay.
-
-<br>
-
-[Check out the analysis Excel workbook here](https://github.com/crisn2blink/Excel-Data-Analytics-Project/tree/main/Project_2)  
-
-![](Files/2_Project_Analysis_Chart1.png)
-
-![](Files/2_Project_Analysis_Chart3.png)
+All of the analysis tabs found within this workbook will help job seekers gain a deeper understanding pertianing to the data job market: what skills are in the highest demand and what
+pay looks like for different scenarios.
