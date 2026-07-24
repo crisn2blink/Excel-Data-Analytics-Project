@@ -363,7 +363,7 @@ Which we then proceed to use the following lookup formula to pull the Count for 
 
 * * *
 
-<br>
+
 ### Excel Skills Used
 
 The following Excel skills were utilized for the analysis:
@@ -373,8 +373,6 @@ The following Excel skills were utilized for the analysis:
 - ❎ **Data Validation**
 
 * * *
-
-<br>
 
 ### Conclusion
 
