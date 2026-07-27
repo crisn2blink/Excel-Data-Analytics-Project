@@ -124,3 +124,61 @@ Below are just a few examples of what type of analysis the workbook covers:
 ![Number of skills w/ pay for each job](Project_2/images/2_Project_Analysis_Chart1.png)
 
 ![Likelihood top jobs found in posting](Project_2/images/2_Project_Analysis_Chart3.png)
+
+# Project Update
+
+Upon further inspection of the data used for the project, many records (around 1,700) pertaining to countries other than the United States had exorbitant amounts that were irrational in context for the yearly salary column.
+
+- Many of these records were from foreign countries and it was obvious no currency conversion had been performed.
+    - In fact, there is no record stating that _any_ currency conversion was ever performed or that all of the currencies were set to USD.
+
+<br>
+
+Because of this, the data for all countries is unreliable.
+
+<br>
+
+## Solution
+
+_STEP 1_: The only way to save the work that has been done and keep the **Dashboard** and the **Salary   
+Analysis Workbook** earnest, was to remove all of the records pertaining to countries other than the United States.
+
+- This initial filtering dropped the amount of records from the original number of **67,078** to **55,357**.
+    - This was only a decrease of around 12k records (as most were from the USA).
+
+<br>
+
+_STEP 2_: At this point, since it was obvious the data had not been properly inspected, I decided to perform the ETL process loading the data into Power Query.
+
+The following cleaning steps were taken:
+
+1. All columns were TRIMMED & CLEANED
+2. The salary\_year\_avg & the salary\_hour\_avg column data type was changed to currency (form text)
+3. The job\_posted\_date cloumn data type was changed to date/time (from text)
+4. Duplicate records (where all of the fields across the board were identical save for the “job\_posted\_date” and the “search\_location”) were removed.
+
+<br>
+
+Upon completion of the ETL process, the number of records was further reduced from **55,357** to the final amount of **39,517**.
+
+## Summary
+
+- Our model now only serves the U.S market
+- We went form 67,078 to 39,517 records
+
+<br>
+
+We gained confidence in our model and increased the integrity of our data.
+
+<br>
+
+For the sake of respect to the project, both the original files (with the data integrity issues) for:
+
+- The Salary Dashboard
+- The Salary Analysis
+
+<br>
+
+Will remain in the project files labeled with the prefix “old\_”
+
+- The update files will simply have the prefix of “final\_” as well as the suffix “USA”
