@@ -182,3 +182,94 @@ For the sake of respect to the project, both the original files (with the data i
 Will remain in the project files labeled with the prefix “old\_”
 
 - The update files will simply have the prefix of “final\_” as well as the suffix “USA”
+
+# REPOSITORY STRUCTURE
+
+Excel-Data-Analytics-Project/                    # Excel data analytics portfolio project and course practice files
+│
+├── 1_Spreadsheets_Intro/                         # Introductory spreadsheet workbook exercises
+│   ├── 1_Worksheets.xlsx                         # Practice workbook for Excel worksheets
+│   ├── 2_Workbooks.xlsx                          # Practice workbook for Excel workbooks
+│   └── Job_Postings_10_Rows.xlsx                 # Small sample job postings workbook
+│
+├── 2_Formulas_Functions/                         # Excel formulas and functions practice files
+│   ├── 1_Formulas_Intro.xlsx                     # Introductory formulas workbook
+│   ├── 2_Formulas_and_Functions_P1_Problem.xlsx  # Formulas and functions practice problem, part 1
+│   ├── 2_Formulas_and_Functions_P2_Problem.xlsx  # Formulas and functions practice problem, part 2
+│   ├── 2_Functions_Intro.xlsx                    # Introductory functions workbook
+│   ├── 3_Logical_Functions.xlsx                  # Logical functions practice workbook
+│   ├── 4_Math_Function.xlsx                      # Math functions practice workbook
+│   ├── 5_Statistical_Functions.xlsx              # Statistical functions practice workbook
+│   ├── 6_Array_Formulas.xlsx                     # Array formulas practice workbook
+│   ├── 7_Lookup_Functions.xlsx                   # Lookup functions practice workbook
+│   ├── 8_Text_Functions.xlsx                     # Text functions practice workbook
+│   └── 9_Date_Time_Functions.xlsx                # Date and time functions practice workbook
+│
+├── 3_Charts_Graphs/                              # Excel charts, graphs, and visual analysis practice files
+│   ├── 1_Charts_Intro.xlsx                       # Introductory charts workbook
+│   ├── 2_Charts_Advanced.xlsx                    # Advanced charting workbook
+│   ├── 3_Charts_P1_Problem.xlsx                  # Charts practice problem, part 1
+│   ├── 3_Charts_P2_Problem.xlsx                  # Charts practice problem, part 2
+│   ├── 3_Charts_Statistics.xlsx                  # Statistical charts workbook
+│   └── 4_Sparklines.xlsx                         # Sparklines practice workbook
+│
+├── 4_Spreadsheets_Advanced/                      # Advanced spreadsheet tools and formatting practice files
+│   ├── 1_Tables.xlsx                             # Excel tables practice workbook
+│   ├── 2_Formatting.xlsx                         # Formatting practice workbook
+│   ├── 3_Collaboration.xlsx                      # Collaboration features practice workbook
+│   └── 4_Spreadsheet_Advanced_Problem.xlsx       # Advanced spreadsheet practice problem
+│
+├── 5_Pivot_Tables/                               # Pivot table and pivot chart practice files
+│   ├── 0_Pivot_Tables.xlsx                       # Pivot tables overview workbook
+│   ├── 1_PivotTable_Intro_Problem.xlsx           # Introductory pivot table practice problem
+│   ├── 1_Power_Pivot_Intro_Pt1.xlsx              # Power Pivot introduction workbook
+│   ├── 2_PivotTable_Advanced_Problem.xlsx        # Advanced pivot table practice problem
+│   ├── 2_Pivot_Table_Advanced.xlsx               # Advanced pivot table workbook
+│   ├── 3_PivotCharts_Problem.xlsx                # Pivot charts practice problem
+│   ├── ~$1_Power_Pivot_Intro_Pt1.xlsx            # Temporary Excel lock file; should be removed from repo
+│   └── ~$2_Pivot_Table_Advanced.xlsx             # Temporary Excel lock file; should be removed from repo
+│
+├── 6_Analysis_Add-Ins/                           # Excel analysis add-ins and what-if analysis practice files
+│   ├── 1_Analysis_Add-ins.xlsx                   # Analysis add-ins practice workbook
+│   ├── 1_Analysis_Add-ins_Problem.xlsx           # Analysis add-ins practice problem workbook
+│   ├── 2_Data_Tables.xlsx                        # Data tables practice workbook
+│   ├── 2_Data_Tables_Problem.xlsx                # Data tables practice problem workbook
+│   ├── 3_Analysis_ToolPak.xlsx                   # Analysis ToolPak practice workbook
+│   └── 3_Analysis_ToolPak_Problem.xlsx           # Analysis ToolPak practice problem workbook
+│
+├── 7_Power_Query/                                # Power Query extraction, transformation, and loading practice files
+│   ├── 01_Power_Query_Intro.xlsx                 # Power Query introduction workbook
+│   ├── 1_Power_Query_Intro_Problem.xlsx          # Power Query introduction practice problem
+│   ├── 2_Power_Query_Editor.xlsx                 # Power Query Editor practice workbook
+│   ├── 2_Power_Query_Task.xlsx                   # Power Query task workbook
+│   ├── 2_Power_Query_Window_Problem.xlsx         # Power Query window practice problem
+│   ├── 3_Advanced_Tranformations_Problem.xlsx    # Advanced transformations practice problem
+│   ├── 4_Append.xlsx                             # Append queries practice workbook
+│   ├── 4_Append_Merge_Problem.xlsx               # Append and merge queries practice problem
+│   ├── 5_M_Language.xlsx                         # M language practice workbook
+│   └── 5_M_Language_Problem.xlsx                 # M language practice problem
+│
+├── 8_Power_Pivot/                                # Power Pivot, data model, and DAX practice files
+│   ├── 1_Power_Pivot_Intro_Problem.xlsx          # Power Pivot introduction practice problem
+│   ├── 1_Power_Pivot_Intro_Pt1.xlsx              # Power Pivot introduction workbook
+│   ├── 3_DAX_Intro_Problem.xlsx                  # Introductory DAX practice problem
+│   ├── 4_DAX_Advanced_Problem.xlsx               # Advanced DAX practice problem
+│   └── Power_Pivot_Window.xlsx                   # Power Pivot window practice workbook
+│
+├── Project_1/                                    # Salary Dashboard Excel project
+│   ├── images/                                   # Dashboard screenshots, KPI images, charts, and demo GIFs
+│   ├── source_data/                              # Source datasets used for the Salary Dashboard project
+│   ├── README.md                                 # Salary Dashboard project overview and explanation
+│   ├── final_project_dashboard_USA.xlsx          # Final USA-only salary dashboard workbook
+│   └── old_project_dashboard.xlsx                # Original salary dashboard workbook
+│
+├── Project_2/                                    # Salary Analysis Excel project
+│   ├── images/                                   # Salary analysis screenshots and chart images
+│   ├── source_data/                              # Source datasets used for the Salary Analysis project
+│   ├── README.md                                 # Salary Analysis project overview and explanation
+│   ├── final_analytics_project_USA.xlsx          # Final USA-only salary analysis workbook
+│   └── old_analytics_project.xlsx                # Original salary analysis workbook
+│
+├── .gitattributes                                # Git attributes configuration
+├── LICENSE                                       # Project license
+└── README.md                                     # Main project overview, project descriptions, data notes, and update summary
