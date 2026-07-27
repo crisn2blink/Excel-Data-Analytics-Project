@@ -184,7 +184,7 @@ Will remain in the project files labeled with the prefix “old\_”
 - The update files will simply have the prefix of “final\_” as well as the suffix “USA”
 
 # REPOSITORY STRUCTURE
-
+```
 Excel-Data-Analytics-Project/                    # Excel data analytics portfolio project and course practice files
 │
 ├── 1_Spreadsheets_Intro/                         # Introductory spreadsheet workbook exercises
@@ -273,3 +273,8 @@ Excel-Data-Analytics-Project/                    # Excel data analytics portfoli
 ├── .gitattributes                                # Git attributes configuration
 ├── LICENSE                                       # Project license
 └── README.md                                     # Main project overview, project descriptions, data notes, and update summary
+│
+├── .gitattributes                                # Git attributes configuration
+├── LICENSE                                       # Project license
+└── README.md                                     # Main project overview, project descriptions, data notes, and update summary
+```
