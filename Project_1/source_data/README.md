@@ -13,3 +13,7 @@ Instructions to update:
 
 NOTE: To be safe, make a copy of the original file and perform all of the changes.
 Once we have verified everthing is properly working, we can replace the file.
+
+PROJECT UPDATE
+These instructions are to update the old data file. Referencing the README in the main page, we know the futility of this (since the data is inaccurate)
+* We could download the updated data and proceed to perform the ETL steps in order to get the final data with only entries from the USA and duplicates removed.
